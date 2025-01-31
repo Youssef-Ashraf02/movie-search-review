@@ -30,14 +30,12 @@ The app uses the **MVC** design pattern to separate concerns and keep the projec
 ## **MVC Structure**
 - **Model**: 
   - **User**: Contains user authentication details (email, password, etc.).
-  - **Movie**: Represents movie data fetched from the external API.
   - **Watchlist**: Allows users to add movies to a custom watchlist.
   - **Review**: Stores user-generated reviews for each movie.
 - **View**: 
   - **EJS Templates**: Used for rendering dynamic views for the homepage, movie details, user profile, watchlist, and reviews.
 - **Controller**: 
   - **User Controller**: Handles user registration, login, and profile management.
-  - **Movie Controller**: Handles searching for movies and displaying movie details.
   - **Watchlist Controller**: Manages adding/removing movies from the user’s watchlist.
   - **Review Controller**: Manages submitting and viewing reviews.
 
