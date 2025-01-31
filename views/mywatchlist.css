@@ -1,0 +1,57 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 40px;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title, .card-text {
+    color: aliceblue;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.empty-watchlist {
+    font-size: 1.5rem;
+    color: #aaa;
+}
+
+.text-center h1 {
+    color: white; /* This line makes the h1 element white */
+    border-bottom: 4px solid #7b1616;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}

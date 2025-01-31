@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.movies {
+    text-align: center;
+}
+
+.movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.box .image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box .details {
+    margin-top: 10px;
+}
+
+.box .details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.box .details p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
